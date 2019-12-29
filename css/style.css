@@ -1,0 +1,266 @@
+/* CSS RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* main Styling */
+
+html,body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.7em;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+h1,h2,h3 {
+    padding-bottom:20px;
+}
+
+p {
+    margin: 10px 0;
+}
+
+/* Utilities */
+
+
+.container-fluid {
+    width: 100%;
+    padding: 0;
+}
+.top-container {
+    padding: 0;
+}
+
+.primary-heading {
+    color: #0cce38 ;
+}
+
+/* icon */
+.icon {
+    height: 40px; 
+    position: relative;
+    right: 31px;
+    border-radius: 7px;
+}
+
+.icon:hover {
+    cursor: pointer;
+}
+
+/* Nav bar */
+
+.nav-container {
+    margin: auto;
+    max-width: 1900px;
+    overflow: auto;
+}
+
+.nav-bar {
+    background:#0a1920;
+    color: #fff;
+    overflow: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.nav-bar a {
+    color: #fff;
+}
+
+.nav-bar h1 {
+    float: left;
+    padding: 10px 0 0 0;
+    margin: 0px;
+}
+
+.nav-bar h1 img {
+    border-radius: 10px;
+}
+
+.nav-bar ul {
+    list-style: none;
+    float: right;
+    margin-bottom: 0;
+}
+
+.nav-bar ul li {
+    float: left;
+    border: #2eaf4a;
+    border-style: solid;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.nav-bar ul li a {
+    display: block;
+    padding: 20px;
+    text-align: center;
+}
+
+.nav-bar ul li a:hover{
+    background: #28a745;
+    color:#0a1920;
+    text-decoration: none;
+}
+.active {
+    background: #28a745;
+    color:#0a1920;
+    text-decoration: none;
+    
+}
+
+
+/* Showcase */
+.showcase {
+    background-image: url(../Images/banner.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 800px;
+}
+
+.showcase .showcase-container {
+    color: #fff;
+    text-align: center;
+    padding-top: 300px;
+}
+
+.showcase-text h1 {
+    padding-top: 20px;
+}
+
+.showcase-text .btn {
+    margin-top: 20px;
+}
+
+/* middle container */
+
+.middle-container .product-card-row {
+    width: 100%;
+    margin-left: 7.5%; 
+    position: relative; 
+    bottom: 35px;
+}
+
+.card-btn {
+    text-align: center;
+}
+
+.testimonials .testimonial-img {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.testimonials .carousel-caption {
+    bottom: 7%;
+}
+.testimonials .carousel-caption h3,
+.testimonials .carousel-caption p {
+    text-align: left;
+}
+
+.testimonial-profile-pic, .testimonial-text {
+    text-align: left;
+}
+
+.testimonial-profile-pic {
+    float: left;
+}
+
+.testimonials .testimonial-text {
+    position: relative;
+    margin: 65px;
+    padding-left: 175px;
+}
+
+.carousel-caption h2 {
+    color: #9ade8e;
+}
+
+/* Footer */
+.bottom-container {
+    background-color:#534840;
+    color: #9ade8e;
+    text-align: center;
+}
+.main-footer p {
+    margin: 0;
+    padding: 1.1rem;
+}
+
+/* Menu Page */
+.chef-special{
+    background-image: url(../Images/today-menu.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.middle-container .today-menu{
+    background-image: url(../Images/menu-bg2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+ .chef-special {
+    padding: 40px 75px;
+ }
+
+ .chef-special h2 {
+     text-align: center;
+ }
+ .chef-special .spl-img1 {
+     float: left;
+     margin-right: 15px;
+ }
+ .chef-special .spl-img2 {
+    float: right;
+    margin-left: 15px;
+}
+
+.chef-special .spl-img3 {
+    float: left;
+    margin-right: 15px;
+}
+
+.chef-special .spl-img4 {
+    float: right;
+    margin-left: 15px;
+}
+ .special1, .special2, .special3, .special4 {
+    margin-bottom: 10%;
+ }
+ .chef-special h3 h5 {
+     padding: 20px;
+ }
+
+ .spl-img1, .spl-img2, .spl-img3, .spl-img4 {
+     border-radius: 100px;
+ }
+
+ .menu-footer {
+    background-color:#142d1f;
+    color:white;
+    text-align: center;
+ }
+
+ /* Contact Us */
+ .email-map {
+    padding: 20px;
+ }
+ .address-heading {
+     text-align: center;
+ }
+
+ iframe {
+     width: 75%;
+     height: 590px;
+ }
